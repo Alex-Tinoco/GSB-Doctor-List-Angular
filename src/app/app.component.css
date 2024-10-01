@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    justify-content: left;
+    list-style: none;
+}
+
+li {
+   color: black;
+   font-size: 25px; 
+}
+
+li:first-of-type {
+    font-weight: 900;
+}
