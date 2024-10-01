@@ -1,3 +1,7 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ul {
     display: flex;
     flex-direction: row;

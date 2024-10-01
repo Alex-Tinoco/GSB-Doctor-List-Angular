@@ -1,12 +1,3 @@
-<div class="Navbar">
-  <ul>
-    <li>GSB</li>
-    <li>Liste des médecins</li>
-    <li>Mes visites</li>
-  </ul>
-</div>
-
 @for (medecin of medecins; track $index) {
-  <app-doctor [doctor]=medecin> </app-doctor>
+<app-doctor [doctor]="medecin"> </app-doctor>
 }
-
